@@ -1,0 +1,19 @@
+{
+  "name": "react-native-docs",
+  "version": "0.0.1",
+  "description": "react-native-docs",
+  "main": "index.js",
+  "authors": {
+    "name": "duc pro",
+    "email": "ducpro@gmail.com"
+  },
+  "repository": "ducpro/react-native-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
