@@ -74,6 +74,7 @@ module.exports = {
           collapsable: true,
           children: [
             '1_the_basic/1_introduction',
+            '1_the_basic/2_component',
             '1_the_basic/1_the_basic'
           ]
         }
