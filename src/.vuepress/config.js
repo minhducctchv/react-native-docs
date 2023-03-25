@@ -1,6 +1,9 @@
 const {description} = require('../../package')
 
 module.exports = {
+    base: '/react-native-docs/',
+    /* thư mục output build, root là docs */
+    dest: 'dist',
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#title
      */

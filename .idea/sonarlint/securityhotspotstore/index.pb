@@ -41,8 +41,6 @@ H
 src/content/api/index.md,3\0\30ee6e1476d2885636b4316ede0e54fcf451e8c6
 <
 src/index.md,7\2\7215eb5fb91a0f870efb44df1c2821f8bd684b5d
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 :
 
 .npmignore,a\a\aa70c1f807c37f569ecaab41d557b08040e4aada

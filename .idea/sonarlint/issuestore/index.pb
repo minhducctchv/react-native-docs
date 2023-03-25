@@ -5,8 +5,6 @@ O
 src/.vuepress/styles/index.styl,0\4\04fdbbe8e6b820e83c6d7c6eecb2d566bd00fce3
 Q
 !src/.vuepress/styles/palette.styl,a\3\a360e7d2cb2129817195b8a925d23e359bcbcc57
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 :
 
 .npmignore,a\a\aa70c1f807c37f569ecaab41d557b08040e4aada
