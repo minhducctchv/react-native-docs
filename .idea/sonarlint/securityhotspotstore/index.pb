@@ -11,8 +11,6 @@ T
 $src/content/guide/7_native_module.md,3\a\3a64b28a2bd206fb67fcbf22fbeb88cf41d4be75
 S
 #src/content/guide/11_android_ios.md,6\7\6726e75545bc8c0e93c9aeefd2631229d534781c
-P
- src/content/guide/1_the_basic.md,f\8\f8d6eaf1a07eafcdf936bb82e0a1b2b4e57d4d51
 Y
 )src/content/guide/6_javascript_runtime.md,a\3\a31023d024900cec0c4cafb56f57c39245d81182
 R
@@ -48,3 +46,18 @@ H
 :
 
 .npmignore,a\a\aa70c1f807c37f569ecaab41d557b08040e4aada
+X
+(src/content/guide/2_environment_setup.md,0\3\03e84ae165717b745dd20c41e2f59ee7518ed95a
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+\
+,src/content/guide/1_the_basic/1_the_basic.md,e\e\eee1b64545125b3f7bac429c4e753ad5c030aa97
+a
+1src/content/guide/1_the_basic/asset/component.svg,2\f\2f59ba4bf831eb48f7c19cf55e9990197162f086
+]
+-src/content/guide/1_the_basic/asset/views.svg,b\7\b7ad4ca1517102ff42344f175a2c74dd4d534a3c
+\
+,src/content/guide/1_the_basic/2_component.md,2\b\2beab5f31559eaee6b00763d8b7f812ebb780569
+_
+/src/content/guide/1_the_basic/1_introduction.md,8\3\83cc53ea0d358dd09c1f29098ac41f4dd696e30e
