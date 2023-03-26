@@ -85,6 +85,9 @@ module.exports = {
                         '1_the_basic/2_component',
                         '1_the_basic/3_react_fundamental',
                         '1_the_basic/4_handling_text_input',
+                        '1_the_basic/5_scrollview',
+                        '1_the_basic/6_list_view',
+                        '1_the_basic/7_troubleshooting',
                         '1_the_basic/1_the_basic',
                     ]
                 }

@@ -59,3 +59,11 @@ a
 ,src/content/guide/1_the_basic/2_component.md,2\b\2beab5f31559eaee6b00763d8b7f812ebb780569
 _
 /src/content/guide/1_the_basic/1_introduction.md,8\3\83cc53ea0d358dd09c1f29098ac41f4dd696e30e
+<
+package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+9
+	deploy.sh,b\e\be94fd40f0c4b440044c3f852e44fd2a75f7b3cc
+d
+4src/content/guide/1_the_basic/3_react_fundamental.md,3\2\325fa91cb19cdb3da31b94cf22bbc12421aa9c43
+f
+6src/content/guide/1_the_basic/4_handling_text_input.md,2\2\22ba5f72716518f6564dbd5066b56b76a430d482
