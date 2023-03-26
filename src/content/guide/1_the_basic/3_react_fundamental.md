@@ -240,44 +240,50 @@ Tìm hiểu thêm về `<>` `</>` ở [fragments](https://reactjs.org/docs/fragm
 
 ::: details Class Component
 Dùng `state` trong Class Component, xem ví dụ dưới
-```tsx {5,12,16,20}
+```tsx {5,8,15,16,20}
 import React, {Component} from 'react';
 import {Button, Text, View} from 'react-native';
 
-class Cat extends Component {
-  state = {isHungry: true};
+type CatProps = {
+    name: string;
+};
 
-  render() {
-    return (
-      <View>
-        <Text>
-          I am {this.props.name}, and I am
-          {this.state.isHungry ? ' hungry' : ' full'}!
-        </Text>
-        <Button
-          onPress={() => {
-            this.setState({isHungry: false});
-          }}
-          disabled={!this.state.isHungry}
-          title={
-            this.state.isHungry ? 'Pour me some milk, please!' : 'Thank you!'
-          }
-        />
-      </View>
-    );
-  }
+class Cat extends Component<CatProps> {
+    state = {isHungry: true};
+
+    render() {
+        return (
+            <View>
+                <Text>
+                    I am {this.props.name}, and I am
+                    {this.state.isHungry ? ' hungry' : ' full'}!
+                </Text>
+                <Button
+                    onPress={() => {
+                        this.setState({isHungry: false});
+                    }}
+                    disabled={!this.state.isHungry}
+                    title={
+                        this.state.isHungry ? 'Pour me some milk, please!' : 'Thank you!'
+                    }
+                />
+            </View>
+        );
+    }
 }
 
 class Cafe extends Component {
-  render() {
-    return (
-      <>
-        <Cat name="Munkustrap" />
-        <Cat name="Spot" />
-      </>
-    );
-  }
+    render() {
+        return (
+            <>
+                <Cat name="Munkustrap" />
+                <Cat name="Spot" />
+            </>
+        );
+    }
 }
+
+export default Cafe;
 ```
 
 khai báo state `state = {isHungry: true};`
